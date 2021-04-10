@@ -1,8 +1,12 @@
 body {
     background-color: #fffbf7;
+    margin: 0;
 }
 h1 {
     color: #025157;
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+    
 }
 h4{
     color: #46484c;
@@ -15,4 +19,56 @@ p{color: #8b8b8bcc
 button {
     color: honeydew;
     background-color: #025157;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+
+.header {
+    
+margin: 40px 28px 0 28px;
+font-size: 0px;
+}
+
+.header li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.logo {
+width: 20%;
+}
+.logo > img { 
+height: 100%;
+}
+
+.navbar {
+    width: 60%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions {
+    width: 20%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main{
+    margin: 50px 0;
+
+}
+
+.main .segundaimagen{
+    text-align: center;
+    width: 70%;
+    margin: 30px 0;
 }
