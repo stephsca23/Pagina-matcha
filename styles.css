@@ -1,11 +1,11 @@
 body {
     background-color: #fffbf7;
-    margin: 0;
+    
 }
 h1 {
     color: #025157;
     font-family: 'Alegreya', serif;
-    font-weight: 900;
+    font-weight: 2000;
     
 }
 h4{
@@ -17,7 +17,7 @@ p{color: #8b8b8bcc
 }
 
 button {
-    color: honeydew;
+    color: #ffffff;
     background-color: #025157;
 }
 
@@ -32,13 +32,15 @@ button {
 
 .header {
     
-margin: 40px 28px 0 28px;
+margin: 10px 10px 0 10px;
 font-size: 0px;
+height: 40px;
 }
 
 .header li {
     display: inline-block;
-    margin: 0 20px;
+    
+   
 }
 
 .logo {
@@ -49,21 +51,50 @@ height: 100%;
 }
 
 .navbar {
-    width: 60%;
+    width: 50%;
     text-align: center;
     color: #025157;
     font-weight: 500;
+    
+}
+
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .actions {
-    width: 20%;
+    width: 150%;
     text-align: right;
     font-size: 14px;
     font-weight: 600;
+     }
+
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+
 }
 
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
 .main{
-    margin: 50px 0;
+    margin: 100px 0;
+    text-align: center;
 
 }
 
